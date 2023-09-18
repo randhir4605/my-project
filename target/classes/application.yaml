@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./camunda-h2-database
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+
+camunda.bpm.admin-user:
+  id: admin
+  password: admin
+  
+server:
+  port: 8085
+
+    
+#spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#spring.jpa.hibernate.ddl-auto=update
+#spring.datasource.driverClassName=org.h2.Driver
+#spring.datasource.url=jdbc:h2:D:/softwares/temp/workspace/sts/SpringBootExample/database
+#spring.datasource.username=sa
+#spring.datasource.password=sa
+#spring.h2.console.enabled=true
+

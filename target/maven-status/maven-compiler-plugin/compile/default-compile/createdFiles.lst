@@ -1,0 +1,11 @@
+com\example\workflow\AgentRepository.class
+com\example\workflow\RevokePermissionHandler.class
+com\example\workflow\Controller.class
+com\example\workflow\DeleteIAMAccountHandler.class
+com\example\workflow\AssignPermissionHandler.class
+com\example\workflow\RemoveAttributeHandler.class
+com\example\workflow\AgentService.class
+com\example\workflow\Agent.class
+com\example\workflow\CreateIAMServiceHandler.class
+com\example\workflow\AddAttributeHandler.class
+com\example\workflow\Application.class
